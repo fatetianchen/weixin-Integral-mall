@@ -1,0 +1,221 @@
+.head-title{
+    width: 100%;
+    height: 4rem;
+    background: url(../img/head-ti.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.head-name{
+    width: 10rem;
+    height: 2.95rem;
+    /* background-color: #fff; */
+    margin-top: 0.45rem;
+    margin-left: 1.32rem;
+}
+.head-name .name-x{
+    width: 2.95rem;
+    height: 2.95rem;
+    background:url(../img/name-x.png) no-repeat center center;
+    background-size: 100% 100%;
+    border-radius:50%; 
+
+}
+.head-name .name-t{
+    height: 2.95rem;
+    line-height: 2.95rem;
+    margin-left: 0.5rem;
+    color: #fff;
+}
+.name-form{
+    width: 100%;
+    height: 4.37rem;
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.name-form .name-rmb{
+    /* text-align: center; */
+    font-size: 0.7rem;
+    margin-bottom: 0.55rem;
+}
+.name-form .name-rmb span{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+    color: #08aede;
+}
+.name-form .name-record{
+    font-size: 0.6rem;
+}
+.name-form .name-record>span{
+    display: inline-block;
+}
+.name-form .name-record span span{
+    color: #08aede;
+    font-size: 0.7rem;
+    margin: 0rem 0.3rem;
+}
+.name-form .name-record a{
+    color: #08aede;
+    margin-left: 0.8rem;
+}
+.name-form .name-bor{
+    width: 11rem;
+    height: 0.25rem;
+    background-color: #e7e8e8;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5.5rem;
+    border-radius: 0.25rem;
+}
+.ranking{
+    width: 100%;
+    height: 2.7rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+}
+.ranking span{
+    display: inline-block;
+    text-align: center;
+}
+.ranking span i{
+    font-size: 0.7rem;
+}
+.ranking span i:nth-child(1){
+    margin-right:  0.2rem;
+}
+.ranking span i:nth-child(2){
+    margin-left:  0.1rem;
+}
+.ranking-ajax{
+    width: 100%;
+    border-top: 0.05rem solid #e7e8e8;
+}
+.ranking-ajax>div{
+    width: 100%;
+    height: 2.7rem;
+    border-bottom: 0.05rem solid #e7e8e8;
+    padding: 0.3rem 0.7rem;
+    box-sizing: border-box;
+}
+.ranking-ajax>div .rk-number{
+    width: 3rem;
+    height: 100%;
+}
+.ranking-ajax>div:nth-of-type(1) .rk-number{
+    background: url(../img/no1.png) no-repeat center left;
+    background-size: 66% 30%;
+}
+.ranking-ajax>div:nth-of-type(2) .rk-number{
+    background: url(../img/no2.png) no-repeat center left;
+    background-size: 66% 30%;
+}
+.ranking-ajax>div:nth-of-type(3) .rk-number{
+    background: url(../img/no3.png) no-repeat center left;
+    background-size: 66% 30%;
+}
+.ranking-ajax>div:nth-of-type(4) .rk-number{
+    background: url(../img/no4.png) no-repeat center left;
+    background-size: 66% 30%;
+}
+.ranking-ajax>div:nth-of-type(5) .rk-number{
+    background: url(../img/no5.png) no-repeat center left;
+    background-size: 66% 30%;
+}
+.ranking-ajax>div .rk-x{
+    width: 2rem;
+    height: 2rem;
+    background: url(../img/rk-x.png) no-repeat bottom center;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 0.025rem solid #afafaf;
+}
+.ranking-ajax>div .rk-x img{
+    width: 100%;
+    height: 100%;
+}
+.ranking-ajax>div .rk-name{
+    font-size: 0.6rem;
+    height: 100%;
+    line-height: 2.1rem;
+    margin-left: 0.5rem;
+
+}
+.ranking-ajax>div .rk-integral{
+    height: 2.1rem;
+    line-height: 2.1rem;
+    font-size: 0.9rem;
+    min-width: 3.5rem;
+}
+.rk-integral i{
+    display: inline-block;
+    margin-right: 0.2rem;
+    width: 0.65rem;
+    height: 0.65rem;
+    background:url(../img/rk-xx.png) no-repeat center center;
+    background-size: 100% 100%;
+    float: left;
+    margin-top: 0.75rem;
+}
+.ranking-ajax>div .rk-integral span{
+    float: right;
+}
+.rk-a{
+    right: 0.5rem;
+    color: #39bee5;
+    font-size: 0.6rem;
+}
+.lun{
+    width: 100%;
+    height: 6.8rem;
+    margin-top: 0.8rem;
+    /* padding-top: 2.25rem; */
+    padding-left: 0.5rem;
+    margin-bottom: 0.65rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.swiper-container{
+    height: 100%;
+    text-align: center;  
+}
+
+.swiper-slide{
+    width: 13.5rem !important;
+    padding: 0.5rem 0.2rem 0.5rem 0.5rem;
+    border: 0.025rem solid #bfbfbf;
+    box-sizing: border-box;
+} 
+.swiper-slide .lun-img{
+    width: 8rem;
+    height: 100%;
+    float: left;
+    background: url(../img/lun-01.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+.swiper-slide h4{
+    font-size: 0.65rem;
+    margin-top: 0.3rem;
+    float: right;
+}
+.swiper-slide p{
+    font-size: 0.5rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.3rem;
+    color: #838484;
+}
+.lun-i{
+    margin-left: 0.4rem;
+    margin-top: 0.6rem;
+}
+.lun-i i{
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-top: 0.3rem;
+    margin-right: 0.3rem;  
+}
+.lun-i span{
+    color: #18b3e0;
+}
