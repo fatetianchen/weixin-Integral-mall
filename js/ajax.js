@@ -6,10 +6,9 @@ $.ajax({
     success: function(data){
         console.log(data.length);
         for(var i in data) {
-                 $('.ranking-ajax').append('<div class="clearfix"><div class="rk-number fl"></div><div class="rk-x fl"></div><div class="rk-name fl">'+data[i].nickname+'</div><div class="rk-integral fr clearfix"><i></i><span>'+data[i].scoreRecords[0].score+'</span></div></div>')    
-                       
-        }
-        
+                 $('.ranking-ajax').append('<div class="clearfix"><div class="rk-number fl"></div><div class="rk-x fl"></div><div class="rk-name fl">'+data[i].nickname+'</div><div class="rk-integral fr clearfix"><i></i><span>'+data[i].scoreRecords[0].score+'</span></div></div>');
+                      
+        };
     },					
     error : function(err) {
         console.log(err);

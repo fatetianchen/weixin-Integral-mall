@@ -1,0 +1,101 @@
+.header{
+    width: 100%;
+    height: 2.2rem;
+    background: url(../img/so-head.jpg) repeat-x;
+    background-size: cover;
+    padding: 0.6rem 0rem;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    color: #fff;
+}
+.header>div{
+    float: left;
+    padding: 0rem 1.05rem;
+}
+.main{
+    width: 100%;
+    border-top: 0.025rem solid #e7e8e8;
+    /* min-width: 2rem; */
+    background-color: pink;
+    font-size: 0.6rem;
+}
+.main>div{
+    width: 100%;
+    height: 2.45rem;
+    border-bottom: 0.025rem solid #e7e8e8;
+    background-color: #fff;
+    /* padding: 0rem 0.5rem; */
+    box-sizing: border-box;
+}
+.main>div>div{
+    line-height: 2.45rem;
+    position: relative;
+    float: left;
+}
+.main>div>div:nth-of-type(1){
+    padding-top: 0.6rem;
+    width: 3.5rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.main>div>div:nth-of-type(2){
+    /* padding: 0rem 0.5rem; */
+    min-width: 5rem;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.main>div>div:nth-of-type(3){
+    /* padding: 0rem 0.5rem; */
+    color: #08aede;
+    min-width: 3.21rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.main>div>div:nth-of-type(4){
+    /* padding: 0rem 0.5rem; */
+    color: #08aede;
+    min-width: 3.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-left: 0.55rem;
+    padding-right: 0.4rem;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+}
+.main>div>div>p{
+    line-height: 0.7rem;
+}
+.main>div>div>p:nth-of-type(1){
+    font-size: 0.5rem;
+}
+.main>div>div>p:nth-of-type(2){
+    
+    font-size: 0.43rem;
+}
+.main>div>div:nth-last-of-type(1){
+    float: right;
+}
+.main>div>div i{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.25rem;
+    display: inline-block;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../img/rk-xx.png) no-repeat center center;
+    background-size: 100% 100%;
+
+}
+.main>div .md-rmb1{
+    /* position: absolute;
+    right: 4.5rem; */
+    min-width: 3rem !important;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+/* .main>div>div:nth-of-type(3) i{
+    left: 0.5rem;
+} */
